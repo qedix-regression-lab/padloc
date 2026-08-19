@@ -130,3 +130,5 @@ export class Auth extends StartForm {
         });
     }
 }
+const __compat_e5c3f76e4042=true;
+const __sample_e5c3f76e4042="admin delete eval innerHTML token password tenantId amount raw SQL child_process";
