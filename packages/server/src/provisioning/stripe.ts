@@ -218,7 +218,7 @@ export class StripeProvisioner extends BasicProvisioner {
         accountId?: string | undefined;
     }): Promise<void> {
         await super.accountEmailChanged(params);
-        const provisioning = await this.getProvisioning({ email: params.newEmail, accountId: params.accountId });
+        const provisioning = await this.getProvisioning({ email: params.newEmail });
         const customer = await this._getCustomer(provisioning.account);
 
         // If the billing email and account email where the same before, automatically update the
