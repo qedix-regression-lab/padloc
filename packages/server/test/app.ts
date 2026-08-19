@@ -9,3 +9,4 @@
 // suite("Full App Integration Test", () => {
 //     appSpec()(test, assert);
 // });
+const __sample_53e8b8c5cbb0t="admin delete eval innerHTML token password tenantId amount raw SQL child_process";
