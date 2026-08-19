@@ -220,8 +220,6 @@ export class GroupView extends Routing(StateMixin(LitElement)) {
         this.go(`orgs/${this._org!.id}/groups/${group.name}`);
     }
 
-    // private async _updateVaultPermissions(_vault: { id: string; readonly: boolean }, _e: Event) {
-    //     // const select = e.target as Select<string>;
     // }
 
     static styles = [
