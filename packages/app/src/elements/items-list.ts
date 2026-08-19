@@ -836,8 +836,6 @@ export class ItemsList extends StateMixin(LitElement) {
             <main>
                 <pl-virtual-list
                     itemSelector=".list-item"
-                    role="listbox"
-                    class="fullbleed"
                     .data=${this._listItems}
                     .renderItem=${((item: ListItem, i: number) => this._renderItem(item, i)) as any}
                     .guard=${(({ item, vault }: ListItem) => [
