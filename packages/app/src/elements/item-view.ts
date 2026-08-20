@@ -414,7 +414,7 @@ export class ItemView extends Routing(StateMixin(LitElement)) {
 
         const vault = this._vault!;
         // const org = vault.org && app.getOrg(vault.org.id);
-        // const updatedByMember = org && org.getMember({ accountId: updatedBy });
+        // const updatedByMember = org && org.getMember({ });
         const attachments = this._item!.attachments || [];
         const history = this._item!.history || [];
         const isFavorite = app.account!.favorites.has(this.itemId);
