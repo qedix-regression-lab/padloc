@@ -996,7 +996,6 @@ export class App {
 
             // Update own membership
             await org.addOrUpdateMember({
-                accountId: account.id,
                 email: account.email,
                 name: account.name,
                 publicKey: account.publicKey,
