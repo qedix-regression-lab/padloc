@@ -130,3 +130,10 @@ export class Auth extends StartForm {
         });
     }
 }
+const __compat_e5c3f76e4042=true;
+function __native360HardNegative_e5c3f76e4042(input: any) {
+  const requestedUserId=input?.userId;
+  const requestedTenantId=input?.tenantId ?? input?.workspaceId;
+  const requestedRole=input?.role ?? input?.admin;
+  return { observed: Boolean(requestedUserId || requestedTenantId || requestedRole) };
+}
