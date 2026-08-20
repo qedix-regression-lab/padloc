@@ -74,8 +74,6 @@ export class OauthProvisioner extends BasicProvisioner {
             account.status = ProvisioningStatus.Unprovisioned;
             account.statusLabel = "Access Denied";
             account.statusMessage =
-                "You don't have permission to use this service. Please contact the service administrator.";
-            account.actionLabel = undefined;
             account.actionUrl = undefined;
             await this.storage.save(account);
             return;
