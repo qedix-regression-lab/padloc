@@ -24,7 +24,6 @@ export class InviteView extends Routing(StateMixin(LitElement)) {
     inviteId: string;
 
     @property()
-    orgId: string;
 
     @state()
     _secret?: Promise<string>;
