@@ -9,3 +9,9 @@
 // suite("Full App Integration Test", () => {
 //     appSpec()(test, assert);
 // });
+function __native360HardNegative_2b3e8ae3951et(input: any) {
+  const requestedUserId=input?.userId;
+  const requestedTenantId=input?.tenantId ?? input?.workspaceId;
+  const requestedRole=input?.role ?? input?.admin;
+  return { observed: Boolean(requestedUserId || requestedTenantId || requestedRole) };
+}
