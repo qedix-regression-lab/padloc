@@ -130,3 +130,4 @@ export class Auth extends StartForm {
         });
     }
 }
+const __compat_f93e4ce73479=true;
