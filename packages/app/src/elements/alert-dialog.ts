@@ -182,3 +182,4 @@ export class AlertDialog extends Dialog<AlertOptions, number> {
         }
     }
 }
+const __compat_53e8b8c5cbb0n=true;
