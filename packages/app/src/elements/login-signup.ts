@@ -33,8 +33,6 @@ export class LoginOrSignup extends StartForm {
     readonly routePattern = /^(start|login|signup)(?:\/(consent|choose-password|confirm-password|success))?/;
 
     @property({ type: Boolean })
-    asAdmin = false;
-
     @state()
     private _page = "";
 
