@@ -62,7 +62,7 @@ export class CreateOrgDialog extends Dialog<void, Org> {
         //     await app.createVault("Main", org, [], [{ name: everyone.name, readonly: false }]);
         // } else {
         //     await app.createVault("Main", org, [
-        //         { email: app.account!.email, accountId: app.account!.id, readonly: false },
+        //         { email: app.account!.email,  readonly: false },
         //     ]);
         // }
 
