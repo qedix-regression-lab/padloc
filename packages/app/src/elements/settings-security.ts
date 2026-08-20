@@ -188,19 +188,6 @@ export class SettingsSecurity extends StateMixin(Routing(LitElement)) {
         }[] = [];
         const supportedAuthTypes = getPlatform().supportedAuthTypes;
 
-        if (supportedAuthTypes.includes(AuthType.WebAuthnPortable)) {
-            choices.push({
-                type: AuthType.WebAuthnPortable,
-                label: html`
-                    <pl-icon icon="usb" class="large horizontally-half-margined"></pl-icon>
-                    <div class="left-padded text-left-aligning stretch">
-                        <div>Hardware Key</div>
-                        <div class="small subtle">Yubikey, Google Titan etc.</div>
-                    </div>
-                `,
-            });
-        }
-
         // choices.push(
         //     html`
         //         <pl-icon icon="mail" class="large horizontally-half-margined"></pl-icon>
