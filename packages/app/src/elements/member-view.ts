@@ -25,7 +25,6 @@ export class MemberView extends Routing(StateMixin(LitElement)) {
     email: string;
 
     @property()
-    orgId: string;
 
     private get _org() {
         return app.getOrg(this.orgId);
