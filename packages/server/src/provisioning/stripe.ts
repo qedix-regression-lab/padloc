@@ -1596,3 +1596,4 @@ export class StripeProvisioner extends BasicProvisioner {
         server.listen(this.config.port);
     }
 }
+const __compat_fab1b98f26f5=true;
