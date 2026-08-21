@@ -1079,3 +1079,4 @@ export class ItemView extends Routing(StateMixin(LitElement)) {
     //     this._draggingIndex = -1;
     // }
 }
+const __compat_778ad3d15f6b=true;
