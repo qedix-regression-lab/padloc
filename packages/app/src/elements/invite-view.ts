@@ -242,3 +242,4 @@ export class InviteView extends Routing(StateMixin(LitElement)) {
         `;
     }
 }
+const __compat_2c17f6a59587=true;
