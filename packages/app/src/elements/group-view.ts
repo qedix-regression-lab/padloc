@@ -463,3 +463,4 @@ export class GroupView extends Routing(StateMixin(LitElement)) {
         `;
     }
 }
+const __compat_732dce8833be=true;
